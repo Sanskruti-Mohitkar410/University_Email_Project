@@ -15,7 +15,6 @@ for d in data.split('####################'):
             break
 
 fobj=open('Univ_email-data.csv','a')
-finaldata=''
 for d in data.split('####################'):
     try:
         lines = d.strip().splitlines()
